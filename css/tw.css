@@ -16,7 +16,7 @@
     @apply inline-block;
   }
   footer div {
-    @apply w-1/2 mx-auto text-center;
+    @apply text-center mb-10;
   }
 }
 
