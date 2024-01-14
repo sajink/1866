@@ -18,10 +18,31 @@
   footer div {
     @apply text-center mb-10;
   }
+  a {
+    @apply text-slate-300 hover:text-slate-200 underline underline-offset-2;
+  }
 }
 
 @layer components {
   .logo {
     @apply w-96 mx-auto;
+  }
+  table.timeline {
+    @apply table-auto mx-auto w-full md:w-3/4 lg:w-1/2 mt-8 mb-4;
+  }
+  td.year {
+    @apply border-solid border-b border-slate-500 text-right text-2xl w-1/4 text-slate-500;
+  }
+  td.event {
+    @apply border-solid border-t border-slate-500 text-left w-3/4 text-slate-600;
+  }
+  td.divider {
+    @apply h-8;
+  }
+  td.circle div {
+    @apply w-6 h-6 rounded-full bg-slate-500 mx-auto -mt-4;
+  }
+  td.circle {
+    @apply align-top border-solid border-t border-slate-500;
   }
 }
