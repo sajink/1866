@@ -34,7 +34,7 @@
     @apply border-solid border-b border-slate-500 text-right text-2xl w-1/4 text-slate-500;
   }
   td.event {
-    @apply border-solid border-t border-slate-500 text-left w-3/4 text-slate-600;
+    @apply border-solid border-t border-slate-500 text-left w-3/4 text-slate-400;
   }
   td.divider {
     @apply h-8;
